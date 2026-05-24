@@ -32,11 +32,6 @@ sections:
       date_format: 'January 2006'
       is_education_first: true
 
-  - block: skills
-    content:
-      title: Skills
-      username: me
-
   - block: awards
     content:
       title: Grants & Awards
