@@ -3,7 +3,7 @@ slug: me
 is_owner: true
 
 name:
-  display: 张妍璟
+  display: Yanjing Zhang
   given: Yanjing
   family: Zhang
   pronunciation: Yanjing Zhang
@@ -24,7 +24,7 @@ bio: >
 affiliations:
   - name: University of Arizona
     url: https://www.arizona.edu/
-  - name: Bilingual Acquisition and Psycholinguistics Lab
+  - name: Bilingual Acquisition & Processing Systems Lab
     url: https://sites.arizona.edu/baps-lab/
 
 links:
@@ -41,10 +41,12 @@ links:
 education:
   - degree: Ph.D. in Linguistics
     institution: University of Arizona
-    start: 2023-08-01
+    start: 2023-08
     end: Present
     summary: |
       Advisor: Dr. Sarah Phillips
+
+      GPA: 4.0/4.0
 
       Research areas:
       - Psycholinguistics
@@ -59,18 +61,27 @@ education:
 
   - degree: B.A. in English
     institution: Beijing Foreign Studies University
-    start: 2019-09-01
-    end: 2023-03-01
+    start: 2019-09
+    end: 2023-06
     summary: |
       Advisor: Dr. Zhaohong Wu
+
+      GPA: 3.76/4.0
 
       Undergraduate research included work on phonological priming, Chinese
       four-character words, and multimodal discourse analysis.
 
 experience:
+  - role: Conference Proceeding
+    org: Speech Prosody 2026
+    start: 2026-05-01
+    summary: |
+      Zhang, Y., & Phillips, S. (2026). Prosodic and Syntactic Cue Integration in L2 English
+      Focus Processing. Speech Prosody 2026 [accepted].
+
   - role: Graduate Researcher
-    org: Bilingual Acquisition and Psycholinguistics Lab, University of Arizona
-    start: 2023-08-01
+    org: Bilingual Acquisition & Processing Systems Lab, University of Arizona
+    start: 2025-08
     summary: |
       Research experience includes:
       - Designed and conducted psycholinguistic experiments on focus processing
@@ -88,14 +99,6 @@ experience:
       - LING/PSY 432: Psychology of Language
       - LING/PSY 341: Language Development
 
-  - role: Teaching Assistant
-    org: Beijing Foreign Studies University
-    start: 2021-09-01
-    end: 2022-05-01
-    summary: |
-      Course assisted:
-      - Academic Writing I
-
   - role: Reviewer
     org: Academic Reviewing
     start: 2025-01-01
@@ -103,46 +106,6 @@ experience:
       Reviewing experience includes:
       - ALC 18 Conference, reviewed 4 papers
       - Coyote Papers in Linguistics, reviewed 3 papers
-
-skills:
-  - name: Research Skills
-    items:
-      - label: Psycholinguistic Experiment Design
-        level: 5
-      - label: Bilingual Sentence Processing
-        level: 5
-      - label: Syntax-Prosody Interface
-        level: 5
-      - label: Focus Processing
-        level: 5
-      - label: Eye-tracking / Visual World Paradigm
-        level: 4
-
-  - name: Technical Skills
-    items:
-      - label: R
-        level: 5
-      - label: Gorilla Experiment Builder
-        level: 5
-      - label: Mixed-effects Modeling
-        level: 4
-      - label: Data Visualization
-        level: 4
-      - label: Python
-        level: 3
-
-  - name: Academic Skills
-    color: "#7c3aed"
-    color_border: "#a78bfa"
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentation
-        level: 5
-      - label: Research Design
-        level: 5
-      - label: Peer Reviewing
-        level: 4
 
 languages:
   - name: Mandarin Chinese
@@ -153,7 +116,7 @@ languages:
 awards:
   - title: Cognitive Science Graduate Summer Fellowship
     url: TODO
-    date: "2026-05-01"
+    date: "2026-05"
     awarder: University of Arizona Cognitive Science Program
     icon: hero/academic-cap
     summary: |
@@ -163,7 +126,7 @@ awards:
 
   - title: GPSC Travel Grant
     url: TODO
-    date: "2026-01-01"
+    date: "2026-05"
     awarder: University of Arizona Graduate and Professional Student Council
     icon: hero/currency-dollar
     summary: |
@@ -172,7 +135,7 @@ awards:
 
   - title: SBSRI Pre-doctoral Research Grant
     url: TODO
-    date: "2025-01-01"
+    date: "2025-12"
     awarder: University of Arizona
     icon: hero/beaker
     summary: |
@@ -180,28 +143,10 @@ awards:
 
   - title: Best Oral Presentation Award
     url: TODO
-    date: "2023-01-01"
+    date: "2022-11"
     awarder: 12th International Conference on Languages, Literature and Linguistics
     icon: hero/trophy
     summary: |
       Received Best Oral Presentation Award for the presentation titled
       "The Role of Phonological Priming in Backward Priming Effects of Chinese
       Four-character Words."
-
-  - title: Speech Prosody 2026 Conference Presentation
-    url: TODO
-    date: "2026-05-01"
-    awarder: Speech Prosody 2026
-    icon: hero/presentation-chart-bar
-    summary: |
-      Presented "Prosodic and Syntactic Cue Integration in L2 English Focus
-      Processing" at Speech Prosody 2026 in Philadelphia, Pennsylvania.
-
-  - title: Cognitive Science Conclave Presentation
-    url: TODO
-    date: "2026-01-01"
-    awarder: University of Arizona
-    icon: hero/chat-bubble-left-right
-    summary: |
-      Presented "Focus Processing in English: Prosodic and Syntactic Cue
-      Integration in L1 and L2" at the Cognitive Science Conclave.
