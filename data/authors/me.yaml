@@ -1,133 +1,207 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
+  display: 张妍璟
+  given: Yanjing
+  family: Zhang
+  pronunciation: Yanjing Zhang
   pronouns: she/her
+
 status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
+  icon: "📚"
+
+role: Ph.D. Student in Linguistics
+
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind
-  optimization.
+  I am a Ph.D. student in Linguistics at the University of Arizona, advised by
+  Dr. Sarah Phillips. My research focuses on psycholinguistics, bilingual language
+  processing, and the syntax-prosody interface. I am especially interested in how
+  native and non-native speakers of English integrate prosodic and syntactic cues
+  during focus interpretation.
+
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Arizona
+    url: https://www.arizona.edu/
+  - name: Bilingual Acquisition and Psycholinguistics Lab
+    url: https://sites.arizona.edu/baps-lab/
+
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:yanjingzhang@arizona.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
-  - icon: brands/github
-    url: https://github.com/gcushen
+  - icon: academicons/google-scholar
+    url: TODO
+  - icon: academicons/orcid
+    url: TODO
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: TODO
+
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: Ph.D. in Linguistics
+    institution: University of Arizona
+    start: 2023-08-01
+    end: Present
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Advisor: Dr. Sarah Phillips
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Research areas:
+      - Psycholinguistics
+      - Bilingual language processing
+      - Syntax-prosody interface
+      - Focus processing
+      - L1 and L2 English sentence processing
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      My current project examines how native and non-native speakers of English
+      integrate prosodic cues, such as pitch accent, and syntactic cues, such as
+      cleft constructions, during focus interpretation.
+
+  - degree: B.A. in English
+    institution: Beijing Foreign Studies University
+    start: 2019-09-01
+    end: 2023-03-01
+    summary: |
+      Advisor: Dr. Zhaohong Wu
+
+      Undergraduate research included work on phonological priming, Chinese
+      four-character words, and multimodal discourse analysis.
+
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: Graduate Researcher
+    org: Bilingual Acquisition and Psycholinguistics Lab, University of Arizona
+    start: 2023-08-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      Research experience includes:
+      - Designed and conducted psycholinguistic experiments on focus processing
+      - Investigated prosodic and syntactic cue integration in L1 and L2 English
+      - Built experimental tasks involving syntactic structure, pitch accent placement, and question type
+      - Analyzed behavioral data using R and mixed-effects models
+      - Developed follow-up work using online processing methods, including eye-tracking
+
+  - role: Teaching Assistant
+    org: Department of Linguistics, University of Arizona
+    start: 2023-09-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses taught or assisted:
+      - LING 150A1: Language in the World
+      - LING/PSY 432: Psychology of Language
+      - LING/PSY 341: Language Development
+
+  - role: Teaching Assistant
+    org: Beijing Foreign Studies University
+    start: 2021-09-01
+    end: 2022-05-01
+    summary: |
+      Course assisted:
+      - Academic Writing I
+
+  - role: Reviewer
+    org: Academic Reviewing
+    start: 2025-01-01
+    summary: |
+      Reviewing experience includes:
+      - ALC 18 Conference, reviewed 4 papers
+      - Coyote Papers in Linguistics, reviewed 3 papers
+
 skills:
+  - name: Research Skills
+    items:
+      - label: Psycholinguistic Experiment Design
+        level: 5
+      - label: Bilingual Sentence Processing
+        level: 5
+      - label: Syntax-Prosody Interface
+        level: 5
+      - label: Focus Processing
+        level: 5
+      - label: Eye-tracking / Visual World Paradigm
+        level: 4
+
   - name: Technical Skills
     items:
+      - label: R
+        level: 5
+      - label: Gorilla Experiment Builder
+        level: 5
+      - label: Mixed-effects Modeling
+        level: 4
+      - label: Data Visualization
+        level: 4
       - label: Python
-        level: 4
-      - label: RStudio
-        level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: Hiking
         level: 3
-      - label: Cats
+
+  - name: Academic Skills
+    color: "#7c3aed"
+    color_border: "#a78bfa"
+    items:
+      - label: Academic Writing
         level: 5
-      - label: Photography
+      - label: Conference Presentation
+        level: 5
+      - label: Research Design
+        level: 5
+      - label: Peer Reviewing
         level: 4
+
 languages:
+  - name: Mandarin Chinese
+    level: 5
   - name: English
     level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
+
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: "2023-11-25"
-    awarder: Coursera
-    icon: brands/coursera
+  - title: Cognitive Science Graduate Summer Fellowship
+    url: TODO
+    date: "2026-05-01"
+    awarder: University of Arizona Cognitive Science Program
+    icon: hero/academic-cap
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
-    icon: brands/edx
+      Awarded a $3,000 graduate summer fellowship to support research on focus
+      processing in English, with a focus on prosodic and syntactic cue integration
+      in L1 and L2 speakers.
+
+  - title: GPSC Travel Grant
+    url: TODO
+    date: "2026-01-01"
+    awarder: University of Arizona Graduate and Professional Student Council
+    icon: hero/currency-dollar
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: "Object-Oriented Programming in R"
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: "2023-01-21"
-    awarder: datacamp
-    icon: brands/datacamp
+      Awarded travel funding to support conference presentation at Speech Prosody
+      2026 in Philadelphia, Pennsylvania.
+
+  - title: SBSRI Pre-doctoral Research Grant
+    url: TODO
+    date: "2025-01-01"
+    awarder: University of Arizona
+    icon: hero/beaker
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Awarded pre-doctoral research funding to support graduate research.
+
+  - title: Best Oral Presentation Award
+    url: TODO
+    date: "2023-01-01"
+    awarder: 12th International Conference on Languages, Literature and Linguistics
+    icon: hero/trophy
+    summary: |
+      Received Best Oral Presentation Award for the presentation titled
+      "The Role of Phonological Priming in Backward Priming Effects of Chinese
+      Four-character Words."
+
+  - title: Speech Prosody 2026 Conference Presentation
+    url: TODO
+    date: "2026-05-01"
+    awarder: Speech Prosody 2026
+    icon: hero/presentation-chart-bar
+    summary: |
+      Presented "Prosodic and Syntactic Cue Integration in L2 English Focus
+      Processing" at Speech Prosody 2026 in Philadelphia, Pennsylvania.
+
+  - title: Cognitive Science Conclave Presentation
+    url: TODO
+    date: "2026-01-01"
+    awarder: University of Arizona
+    icon: hero/chat-bubble-left-right
+    summary: |
+      Presented "Focus Processing in English: Prosodic and Syntactic Cue
+      Integration in L1 and L2" at the Cognitive Science Conclave.
